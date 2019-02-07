@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "DoorStockImporter", "DoorStockImporter\DoorStockImporter.dtproj", "{B6446DB9-0196-4420-BADA-ACA4EC2F3C03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6446DB9-0196-4420-BADA-ACA4EC2F3C03}.Development|Default.ActiveCfg = Development
+		{B6446DB9-0196-4420-BADA-ACA4EC2F3C03}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {83EF8256-FD0B-40D7-B940-18DF42770456}
+	EndGlobalSection
+EndGlobal
