@@ -12,11 +12,11 @@
   <DataSourceViews />
   <DeploymentModelSpecificContent>
     <Manifest>
-      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithPassword" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{c7e6aa89-a916-4b1b-81eb-ef9336237d1c}</SSIS:Property>
           <SSIS:Property SSIS:Name="Name">DoorStockImporter</SSIS:Property>
-          <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionMajor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionComments">
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-V55AIPC</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAS3d/OhSM50GK/VkodJQqkQAAAAACAAAAAAAQZgAAAAEAACAAAADVuAKPy/96eT/IQzbHhc/y3plFqvA3Nh2RxBUYtVr2AAAAAAAOgAAAAAIAACAAAACx3aIxanA+GHGxowEhRrhEOMFRKsoARbkTuUnDswZA/JAAAADawFjcZn/HUWoYsMxA8IJn7Zz+OzqPvrB1c9wWpPdDD9I6ZmjHx/+e/8JghkXy0y2BWt8V/XUzh6+ewbzk42SeL0aIlkG/WxkfDnIaK/GtE6BGC3CcARaiT0NT81nQmHhrDdYCtPhxAodIdbIIwyGTitUNrmAJvEcOpDxpUPpC9QcBZWYih6nijXO3+6GJo0xAAAAAoTIKHI13/MjxR9Xb4Q2dVLmQmrbVw6bu+ZR25S4VlXKvjMbXJ4jHpiay0amDWK8xhqK/T9VZJ8u299Lt8JHRFw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="FnjtclDZog==" SSIS:IV="UrWPtd5sd1c=">7xXNA9BgCwz0XCmGtjF2h9jop6KXfej3SLhqhn0Bf/3AODkFigF5NvV/CY03hd+Xxg/lU+kFz8MpVYS/Ogavgf0YdTHwrf4rrOlYwOz5uZiXighyJqKGUH4t2cA1VCcP4NsamkSQz6hG/I25gyb7Hzt+cTlQz1O7lUWkafgoDVvCNhFAOdL3dg==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,14 +42,14 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">3</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">45</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{83B2203E-71A1-43A4-922E-F9E629FA2296}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{FE5ECAB0-E1AF-4312-9ADF-5CA4B316C253}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
                 <SSIS:Parameter SSIS:Name="CM.192.168.0.150\SQLEXPRESS.order_database.sa.ConnectionString">
@@ -324,7 +324,7 @@
         <ConnectionProviderMappings />
         <ConnectionSecurityMappings />
         <DatabaseStorageLocations />
-        <TargetServerVersion>SQLServer2017</TargetServerVersion>
+        <TargetServerVersion>SQLServer2016</TargetServerVersion>
         <ParameterConfigurationValues>
           <ConfigurationSetting>
             <Id>LastModifiedTime</Id>
